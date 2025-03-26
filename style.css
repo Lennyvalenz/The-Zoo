@@ -905,7 +905,7 @@ nav a {
 
 /* Fondo con imagen para el contenedor 1 */
 .box1 {
-    background-image: url('img/fondo1.jpg'); /* Ruta de la imagen */
+    background-image: url('fondo1.jpg'); /* Ruta de la imagen */
     background-size: cover;
     background-position: center;
     color: #ffffff; /* Color del texto */
@@ -913,7 +913,7 @@ nav a {
 
 /* Fondo con imagen para el contenedor 2 */
 .box2 {
-    background-image: url('img/fondo2.png'); /* Ruta de la imagen */
+    background-image: url('fondo2.png'); /* Ruta de la imagen */
     background-size: cover;
     background-position: center;
     color: #ffffff; /* Texto blanco para mejor contraste */
