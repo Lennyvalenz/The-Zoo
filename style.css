@@ -1,3 +1,41 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}  
+  /* Estilos para pantallas grandes (PC) */
+.container {
+    width: 80%;
+    margin: 0 auto;
+} 
+  /* Estilos para tablets */
+@media (max-width: 768px) {
+.container {
+    width: 95%;
+    padding: 10px;
+    }
+
+h1 {
+    font-size: 24px;
+    }
+}  
+  /* Estilos para móviles */
+@media (max-width: 480px) {
+.container {
+    width: 100%;
+    padding: 5px;
+    }
+
+h1 {
+    font-size: 18px;
+    }
+
+nav {
+    flex-direction: column;
+    }
+}  
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
