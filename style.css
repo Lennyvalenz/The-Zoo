@@ -542,7 +542,7 @@ nav a {
     position: absolute;
     width: 100%; /* Ancho igual al contenedor */
     height: 100%; /* Altura igual al contenedor */
-    background: url('img/jaguar2.jpg') no-repeat center center;
+    background: url('jaguar2.jpg') no-repeat center center;
     background-size: contain; /* Ajustar la imagen al cuadro */
     opacity: 0.7;
     transition: opacity 0.3s;
@@ -558,7 +558,7 @@ nav a {
     position: absolute;
     width: 100%; /* Ancho igual al contenedor */
     height: 100%; /* Altura igual al contenedor */
-    background: url('img/lobo2.jpg') no-repeat center center;
+    background: url('lobo2.jpg') no-repeat center center;
     background-size: contain; /* Ajustar la imagen al cuadro */
     opacity: 0.7;
     transition: opacity 0.3s;
@@ -575,7 +575,7 @@ nav a {
     position: absolute;
     width: 100%; /* Ancho igual al contenedor */
     height: 100%; /* Altura igual al contenedor */
-    background: url('img/tigre2.jpg') no-repeat center center;
+    background: url('tigre2.jpg') no-repeat center center;
     background-size: contain; /* Ajustar la imagen al cuadro */
     opacity: 0.7;
     transition: opacity 0.3s;
@@ -591,7 +591,7 @@ nav a {
     position: absolute;
     width: 100%; /* Ancho igual al contenedor */
     height: 100%; /* Altura igual al contenedor */
-    background: url('img/pantera2.jpg') no-repeat center center;
+    background: url('pantera2.jpg') no-repeat center center;
     background-size: contain; /* Ajustar la imagen al cuadro */
     opacity: 0.7;
     transition: opacity 0.3s;
@@ -607,7 +607,7 @@ nav a {
     position: absolute;
     width: 100%; /* Ancho igual al contenedor */
     height: 100%; /* Altura igual al contenedor */
-    background: url('img/tiburon2.jpg') no-repeat center center;
+    background: url('tiburon2.jpg') no-repeat center center;
     background-size: contain; /* Ajustar la imagen al cuadro */
     opacity: 0.7;
     transition: opacity 0.3s;
