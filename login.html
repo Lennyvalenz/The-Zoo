@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión - The Zoo 2.0</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body class="login-body">
+    <div class="login-container">
+        <div class="login-left">
+            <h1>The Zoo 2.0</h1>
+            <p>Conéctate y descubre el mundo animal como nunca antes.</p>
+        </div>
+        <div class="login-right">
+            <form id="loginForm">
+                <input type="text" id="email" placeholder="Usuario" required>
+                
+                <!-- Campo de contraseña con botón para mostrar/ocultar -->
+                <div class="password-container">
+                    <input type="password" id="password" placeholder="Contraseña" required>
+                    <input type="checkbox" id="showPassword" onclick="togglePassword()"> Mostrar contraseña
+                </div>
+                
+                <button type="submit">Iniciar sesión</button>
+                <a href="#" onclick="openResetWindow()">¿Olvidaste tu contraseña?</a>
+                <hr>
+            </form>
+        </div>
+    </div>
+
+    <!-- Ventana emergente para restablecer contraseña -->
+    <div id="resetWindow" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeResetWindow()">&times;</span>
+            <h2>Restablecer Contraseña</h2>
+            <br>
+            <p>Introduce tu correo para restablecer tu contraseña:</p>
+            <br>
+            <input type="email" id="resetEmail" placeholder="Correo electrónico" required>
+            <button onclick="sendResetLink()">Enviar enlace de restablecimiento</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 The Zoo 2.0</p>
+    </footer>
+</body>
+</html>
+
